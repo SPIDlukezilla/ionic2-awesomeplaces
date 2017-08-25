@@ -1,26 +1,20 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+To install this app on your computer use git clone and npm install.
 
-## How to use this template
-
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+Add a Place with title and description. Select location using google maps & marker or get user location using geolocation. Take a photo using camera.  
+Save the data with native storage and the taken photo with native file. On home page show saved places and edit / delete them.  
+  
+what I've user:  
+	-template driven form  
+	-google maps api  
+	-marker for map  
+	-passing location (lat & lng)  
+	-native device features  
+		-geolocation  
+		-camera  
+		-file  
+		-storage  
+	-taking and displaying a picture  
+	-saving the image and data  
+	  
+	
+How to export the app as .apk and running it on a real device
